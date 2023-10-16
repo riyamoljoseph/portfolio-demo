@@ -1,0 +1,213 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+
+  
+}
+
+nav ul{
+  display: flex;
+  padding-top: 25px;
+  position: sticky;
+}
+
+
+nav ul li a{
+  margin: 50px;
+  justify-content: space-evenly;
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+nav ul li a:hover{
+  color: darkred;
+}
+
+.main{
+  background-color: black;
+  height: 450px;
+}
+.main h1{
+  color: white;
+  padding-left: 700px;
+  padding-right: 430px;
+  padding-top: 100px;
+  text-align: right;
+  font-size: 60px;
+ font-weight:600px;
+ 
+}
+.main h1:hover{
+  color: brown;
+}
+.main p{
+  color:aliceblue;
+  text-align: center;
+  font-style: italic;
+  font-size: large;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding-top: 45px;
+  padding-left: 300px;
+}
+.main img{
+  padding-top: 40px;
+  border-radius:49% 51% 50% 50% / 69% 66% 34% 31%  ;
+  background-color: rgb(127, 0, 0);
+  display: flex;
+  position: relative;
+}
+
+.pic h3{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 400px;
+  color: rgb(76, 10, 10);
+  font-size: x-large;
+}
+.pic h4{
+  text-align: right;
+  font-size:xx-large;
+  font-weight: 300px;
+  margin: 10px;
+  margin-top: 30px;
+  margin-right: 250px;
+  color: rgb(76, 10, 10);
+}
+.pic h4:hover{
+  color: cornflowerblue;
+}
+.pic p{
+  margin-top: 20px;
+  text-align: justify;
+  margin-left: 710px;
+}
+
+.view{
+  background-color: rgb(181, 18, 29);
+  color: aliceblue;
+  padding: 15px;
+  padding-top: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-left: 940px;
+  }
+  .gallery h3{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 250px;
+    color: rgb(107, 18, 18);
+    font-size: x-large;
+  }
+  
+.gallery{
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 150px;
+}
+
+
+.gallery img{
+  width:300px;
+  height: 200px;
+  margin: 30px;
+  margin-bottom: 10px;
+}
+.gallery,img:hover{
+  box-shadow: 3px 4px 5px rgb(167, 9, 22);
+}
+.row{
+  display: flex;
+  height: 500px;
+  background-color: rgba(240, 238, 238, 0.853);
+  
+}
+
+.box{
+  width: 300px;
+  height: 400px;
+  border : 1px ridge rgb(73, 18, 18);
+  margin: 20px;
+  background: linear-gradient(to top,rgb(231, 152, 162) 50%,rgb(253, 253, 253) 50%);
+  background-size: 100% 200%;
+  transition: all 0.8s;
+  margin-left: 160px;
+  margin-top: 60px;
+}
+
+#services h3{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 200px;
+  color: rgb(107, 18, 18);
+  font-size: x-large;
+}
+
+.box:hover{
+  background-position: right bottom;
+  border: none;
+  box-shadow: 3px 5px 6px 2px rgb(110, 5, 46);
+}
+
+.box img{
+  width: 200px;
+  height: 150px;
+  border-radius: 300px;
+  margin-left: 35px;
+ 
+}
+
+.box h4{
+  text-align: center;
+  color: rgb(101, 5, 5);
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style:oblique;
+}
+.box p{
+  text-align: justify;
+  margin: 20px;
+}
+.chart{
+  height: 430px;
+  background: linear-gradient(to right,rgba(251, 74, 74, 0.818) 30%,rgb(253, 253, 253) 50%);
+}
+
+.chart h3{
+  text-align: center;
+    margin-top: 50px;
+    margin-left: 250px;
+    color: rgb(107, 18, 18);
+    font-size: x-large;
+}
+.chart img{
+  margin-left: 60px;
+  margin-top: 30px;
+  border-radius: 30px  ;
+
+}
+.chart p{
+  text-align: right;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 350px;
+  font-weight: bold;
+  
+}
+
+.foot{
+  background-color: rgba(0, 0, 0, 0.945);
+  color: rgb(158, 24, 24);
+  text-align:center;
+  padding: 50px;
+  width: 100%;
+  height: 80px;
+  margin-right: 350px;
+}
